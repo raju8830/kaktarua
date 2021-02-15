@@ -29,4 +29,8 @@
   .header_banner_right{
     margin-top: 20px;
   }
+  .single_connect p, .people_ask_content p{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
