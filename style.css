@@ -20,7 +20,7 @@ p{
   font-weight: 500;
 }
 section{
-  padding: 50px 50px;
+  padding: 50px 0px 80px 0px;;
 }
 .margin30{
   margin: 30px 0px;
@@ -62,20 +62,22 @@ section{
 .header_banner_left{
   margin-top: 80px;
 }
-.header_banner_left h2, .content_section h2, .conaction_header h2{
+.header_banner_left h2, .content_section h2,
+.conaction_header h2,
+.connect_header h2,
+.people_ask_header h2{
   font-size: 35px;
   font-weight: 700;
 }
-.header_banner_left p, .content_section p, .conaction_header p{
+.header_banner_left p,
+.content_section p,
+.conaction_header p,
+.connect_header p{
   margin: 20px 0px;
 }
 .header_banner_left span{
   font-weight: 500;
   font-size: 18px;
-}
-.header_banner_left span img{
-  width: 60px;
-  height: 43px;
 }
 .banner_btn{
   margin-top: 20px;
@@ -95,6 +97,10 @@ section{
 .banner_btn .btn{
   background: #FF2C55;
   border: none;
+}
+.header_banner_left span img{
+  width: 20px;
+  height: 20px;
 }
 /*content part*/
 .content_box img{
@@ -135,4 +141,95 @@ section{
 }
 .user_img{
   margin-top: 30px;
+}
+.user_img img{
+  width: 620px;
+  height: 350px;
+}
+.user_header i.fa{
+  font-size: 14px;
+  padding: 3px 5px;
+  background: #fff;
+  color: #FF2C55;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+/*conect part*/
+.connect_part_bg{
+  background: #F9F9F9;
+}
+.single_connect_box,
+.single_people_box{
+  margin-top: 30px;
+}
+.single_connect h4,
+.people_ask_content h4{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 20px 0px;
+}
+.single_connect p,
+.people_ask_content p{
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.connect_footer_content{
+  text-align: left;
+  margin-top: 50px;
+}
+.connect_footer h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+/*footer Aria*/
+.footer{
+  padding: 50px 0px 20px 0px;
+  background: #F3F2F8;
+}
+.footer_social_media {
+  margin-top: 20px;
+}
+.footer_social_media i.fa{
+  padding: 5px 7px;
+  background: #8F8E94;
+  color: #F3F2F8;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.footer_content h4{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.footer_content ul {
+  list-style: none;
+}
+.footer_content ul li{
+  margin: 5px 0px;
+}
+.footer_content ul li a,
+.footer_content p{
+  color: #505052;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer_content ul li a:hover{
+  color: #505052;
+}
+.footer_content p{
+  margin-bottom: 5px;
+}
+.copy_right{
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.copy_right p{
+  font-size:14px ;
+  color: #A09FA5;
+  font-weight: 400;
 }

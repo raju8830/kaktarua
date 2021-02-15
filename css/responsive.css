@@ -1,25 +1,32 @@
-/*   Medium Layout :1200px  */
-@media only screen and (min-width:992px) and (max-width:1200px){}
-
-
-
 /*   Tablet Layout :768px  */
-@media only screen and (min-width:768px) and (max-width:991px){}
-
-
-
-/*   Tablet & Mobile Layout :768px  */
-@media only screen and (max-width:991px){}
-
-
-
-
+@media only screen and (min-width:768px) and (max-width:991px){
+  .header_banner_right img{
+    height: 400px;
+  }
+  .header_banner_left{
+    margin-top: 0px;
+  }
+  .header_banner_left h2, .content_section h2, .conaction_header h2, .connect_header h2, .people_ask_header h2{
+    font-size: 25px;
+  }
+  .header_banner_left span{
+    font-size: 14px;
+  }
+  .user_img img{
+    width: 500px;
+    height: 300px;
+  }
+  .single_connect p, .people_ask_content p{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 /*   Mobile Layout :320px  */
-@media only screen and (max-width:767px){}
-
-
-
-
-/*   Wide Mobile Layout :480px  */
-@media only screen and (min-width:480px) and (max-width:767px){}
-
+@media only screen and (max-width:767px){
+  .header_banner_left{
+    margin-top: 0px;
+  }
+  .header_banner_right{
+    margin-top: 20px;
+  }
+}
