@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+a:hover{
+  text-decoration: none;
+}
+a,h1, h2, h3, h4, h5, h6, p{
+  color: #48484A;
+}
+p{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 22px;
+  font-weight: 500;
+}
+section{
+  padding: 50px 50px;
+}
+.margin30{
+  margin: 30px 0px;
+}
+.header_menu .navbar-brand{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.header_menu a.navbar-brand img {
+  width: 35px;
+  height: 25px;
+}
+.header_menu .navbar-brand:hover{
+  color: #48484A
+}
+.header_menu .nav-item{
+  margin-left: 30px;
+}
+.header_menu .nav-link{
+  padding: 5px 20px !important;
+  color: #333;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all .3s;
+  display: inline-block;
+}
+.header_menu .nav-link.active{
+  color: #fff;
+  background: #FF2C55;
+}
+.header_menu .nav-link:hover{
+  color: #fff;
+  background: #FF2C55;
+}
+/*header part*/
+.header_banner_left{
+  margin-top: 80px;
+}
+.header_banner_left h2, .content_section h2, .conaction_header h2{
+  font-size: 35px;
+  font-weight: 700;
+}
+.header_banner_left p, .content_section p, .conaction_header p{
+  margin: 20px 0px;
+}
+.header_banner_left span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.header_banner_left span img{
+  width: 60px;
+  height: 43px;
+}
+.banner_btn{
+  margin-top: 20px;
+}
+.header_banner_right img{
+  width: 280px;
+  height: 500px;
+}
+.banner_btn .btn i.fa{
+  padding: 2px 5px;
+  background: #fff;
+  color: #FF2C55;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.banner_btn .btn{
+  background: #FF2C55;
+  border: none;
+}
+/*content part*/
+.content_box img{
+  width: 100px;
+  height: 100px;
+}
+.content_img img{
+  border-radius: 2px;
+}
+/*conaction Part*/
+.conaction_bg{
+  background: #F9F9F9;
+}
+.conaction_header{
+  margin-bottom: 100px;
+}
+.conaction_img{
+  height: 350px;
+  width: 100%;
+  background: #ddd;
+}
+.conaction_box h4{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+}
+/*user section*/
+.user_header .btn{
+  background: #FF2C55;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+}
+.user_header .btn:focus{
+  background: #FF2C55;
+}
+.user_img{
+  margin-top: 30px;
+}
